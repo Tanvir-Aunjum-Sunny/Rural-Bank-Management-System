@@ -1,0 +1,111 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Shomobay Shomiti
+    Template URI: http://shomobay-shomiti.com
+    Description: This is html5 template
+    Author: EWU
+    Author URI: http://shomobayshomiti.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    1. Theme Default CSS (body, link color, section etc)
+
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+}
+a {transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
+}
+/***************************
+	2. andromeda header
+****************************/
+header{
+	width:auto;
+	height:100%;
+}
+/******************************
+	2.1 andromeda header top
+*******************************/
+.marketplace-header-top{
+	/*background-image: url('img/header/header_1.jpg');*/
+	background-color: #ffffff;
+	padding: 20px 0 20px 0;
+	bottom: 2px solid #a4c639;
+}
+.marketplace-logo img{
+	min-height: 100%;
+	min-width: 100%;
+	float: left;
+	width: auto;
+	height: auto;
+	display: inline-block;
+}
+/*********************************
+	2.3 andromeda signin option
+**********************************/
+.marketplace-sign-option{}
+.marketplace-sign-option ul{}
+.marketplace-sign-option ul li {
+	float: right;
+	margin-right: 0px;
+	position: relative;
+	font-size: 14px;
+	font-weight: 600;
+	height:100%;
+	text-transform: uppercase;
+	text-align: center;
+}
+.marketplace-sign-option ul li a {
+	color: #000000;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 10px 20px;
+}
+.marketplace-sign-option ul li:hover a{background: #a4c639;color:#ffffff;}
